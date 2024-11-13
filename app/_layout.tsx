@@ -7,10 +7,10 @@ export default function RootLayout() {
         name="index" 
         options={{ title: 'Home', headerShown: false }} 
       />
-      <Stack.Screen 
+      {/* <Stack.Screen 
         name="about" 
         options={{ title: 'About', headerShown: false }} 
-      />
+      /> */}
     </Stack>
   );
 }
